@@ -1,18 +1,18 @@
-GET http://localhost:3001/api/persons/4
+GET https://gentle-ridge-77245.herokuapp.com/api/persons/4
 
 ###
-GET http://localhost:3001/api/persons/
+GET https://gentle-ridge-77245.herokuapp.com/api/persons
 
 ###
 
-DELETE  http://localhost:3001/api/persons/3
+DELETE https://gentle-ridge-77245.herokuapp.com/api/persons/8481
 
 ###
-POST http://localhost:3001/api/persons
+POST https://gentle-ridge-77245.herokuapp.com/api/persons
 Content-Type: application/json
 
 {
-    "name": "Kirikou",
+     "name": "Kirikou",
     "number": "345678-56778"
 }
 
