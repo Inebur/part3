@@ -16,3 +16,22 @@ Content-Type: application/json
     "number": "345678-56778"
 }
 
+###
+GET http://localhost:3001/api/persons
+
+###
+GET http://localhost:3001/api/persons/34
+
+###
+GET http://localhost:3001/api/persons/629b5bcbe9a9ce90202f5d40
+
+###
+GET http://localhost:3001/info
+
+###
+POST  http://localhost:3001/api/persons
+Content-Type: application/json
+{
+    "name": "a",
+    "number": "djdlkdjl"
+}
